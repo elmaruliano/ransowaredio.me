@@ -1,0 +1,1 @@
+Este repositório contém simulações educacionais que ilustram técnicas associadas a malwares. **NÃO** execute estes scripts em máquinas de produção ou com dados reais. Execute apenas em VMs isoladas com snapshots e em diretórios sandbox explicitamente criados para testes.
