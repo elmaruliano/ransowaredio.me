@@ -1,0 +1,17 @@
+Roteiro de laboratório (resumido)
+
+Criar VM (por ex. Debian/Win10). Antes de executar, criar snapshot.
+
+Desligar acesso à internet ou usar rede isolada.
+
+Criar /tmp/malware_lab_sandbox ou C:\malware_lab_sandbox. Colocar 3-5 arquivos de teste com extensão .sample.
+
+Rodar python3 code/encrypter_demo.py --sandbox /tmp/malware_lab_sandbox --mode genkey --keyfile /tmp/malware_lab_sandbox/key.key
+
+Rodar python3 code/encrypter_demo.py --sandbox /tmp/malware_lab_sandbox --mode encrypt --keyfile /tmp/malware_lab_sandbox/key.key
+
+Fazer screenshots do estado do diretório antes/depois.
+
+Rodar python3 code/fake_keylog_generator.py e python3 code/analyzer.py.
+
+Reverter snapshot.
